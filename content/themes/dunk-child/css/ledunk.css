@@ -1,0 +1,1129 @@
+#logo {
+	display: table-cell;
+	/* min-width: 150px; */
+	}
+
+/*
+a {
+	color: #555 !important;	
+}
+*/
+
+/*
+a:hover {
+	color: black !important;
+	}
+*/
+
+a.button {
+	color: white !important;
+	}
+
+#compact-footer small, #dunk-footer small { font-size: 80%; }
+
+form[role] {
+	display: table-cell;
+	border: 1px solid transparent;
+	/* box-image-width: 0;  */
+	font-family: 'Pontano Sans';
+	
+	}
+	
+#yith-ajaxsearchform, #yith-ajaxsearchform input, #yith-ajaxsearchform button {
+	border: 1px solid transparent;
+	background: transparent;
+	box-shadow: inset 0 0 0 0 transparent;
+	-moz-box-shadow:    inset 0 0 0 0 transparent;
+   -webkit-box-shadow: inset 0 0 0 0 transparent;  
+   font-family: 'Pontano Sans';
+   font-size: 13px;
+   letter-spacing: 1px;
+   
+	}
+
+#yith-ajaxsearchform {
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	padding-left: 20px;
+	}
+	
+#yith-ajaxsearchform input {
+	font-size: 16px;
+	font-weight: normal;
+	}
+
+
+a.nav-top-link, ul.header-nav li a {
+/* font-family: "questrial" !important; */
+/* 	font-family: "Monda" !important; */
+	text-transform: uppercase;
+/* 	font-weight: 700; */
+	font-size: 100%;
+	
+	color: #222 !important;
+	}
+	
+.ux_banner:not(.aboutbanner) h1, .dunk_banner h1{
+	font-family: "matchup" !important;	
+	text-transform: uppercase;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+font-family: "haymaker",helvetica,arial,sans-serif!important;
+}
+
+body p{
+	font-size: 1.25em;
+}
+
+.price {
+	font-family: "Pontano Sans" !important;
+	}
+
+.cart-icon {
+	vertical-align: middle;
+	/* border: 1px solid green; */
+	}
+
+.custom-cart-inner {
+	padding-left: 16px;
+	width: 48px;
+	}
+
+.cart-icon-sprite {
+	/* border: 1px solid red; */
+	overflow: hidden;
+	height: 32px;
+	width: 32px;
+	display: block;
+	position: relative;
+	}
+.custom-cart-count {
+	top: -4px;
+	}
+.cart-icon-sprite img {
+	position: absolute;
+	max-width: 128px;
+	top: 0;
+	left: 0;
+	right: auto;
+	}
+
+.custom-cart-icon.1item {
+	left: -32px !important;
+	}
+
+
+.custom-cart-icon.2item {
+	left: -64px !important;
+	}
+
+.custom-cart-icon.3item {
+	left: -96px !important;
+	}
+
+.custom-cart-icon.emptycart {
+	left: 0;
+	}
+
+
+.jPanelMenu-panel .right-links li.menu-item {
+	display: none !important;
+	}
+.jPanelMenu-panel .right-links li.mini-cart {
+	position: relative;
+	top: -4px;
+	}
+
+.cart .loading {
+	left: 0;
+	border-radius: 0;
+	}
+
+#homepage-slides, #banner-1st-3rd, #hardwood-poets {
+	opacity: 0;
+	}
+
+
+
+/********************************************* ABOUT ROW  ****************/
+
+
+#banner-1st-3rd {
+	padding-top: 20px;
+	}
+
+#aboutrow {
+	/* margin-bottom: 0 !important; */
+	height: 280px;
+	
+	}
+
+.jPanelMenu #aboutrow {
+	height: auto;
+	margin-bottom: 30px !important;
+	}
+
+.thanks {
+	display:  inline-block;
+	font-size: 2em;
+	font-weight: bold;
+	color: #555;
+	margin-right: .25em;
+	}
+
+.donut-thanks a {
+	display: block;
+	position: absolute;
+	left: 80px;
+	top: 70px;
+	}
+	
+.aboutbanner h1 {
+	border-bottom: 3px solid #555;
+	padding: 6px 0 4px;
+
+	}
+
+div.aboutbanner ~ div.social-icons {
+	text-align: center;
+	}
+
+	
+.newsbutton {
+	font-size: .85em !important;
+	}
+	
+input.wpcf7-text {
+	color : #999;
+	font-size: .75em !important;
+	}
+	
+.cf7-resp {
+	opacity: 0;
+	font-size: 1.1em;
+	}
+	
+.wpcf7-not-valid-tip {
+	margin: .75em 0;
+	}
+	
+.wpcf7-response-output {
+	opacity: 0;
+	}
+
+/********************************************* HARDWOOD POETS *************/
+
+
+#hardwood-poets {
+	clear: both;
+	border-bottom: 9px solid white;
+	background: #eee;
+	
+	}
+
+#hardwood-poets .banner-bg {
+	box-shadow: inset 0px 10px 60px -8px #999,
+                0px -0px 0px -4px #333;
+    background: #bbb;
+	}
+
+#hardwood-poets .inner.center {
+	width: 100% !important;
+	left: 0;
+	right: 0;
+	}
+
+#hardwood-poets p {
+	padding: 4px 0;
+	margin-top: 20px;
+	font-size: 1.35em !important;
+	display: inline-block;
+	border-bottom: 9px solid #fff !important;
+	text-align: center;
+	color: #fff;
+/* 	text-transform: uppercase; */
+	}
+
+
+/********************************************* MID SLIDER  ****************/
+
+#slider-le-mid {
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	}
+
+#slider-le-mid .lemidslider {
+	overflow: hidden;
+	height: 400px;
+	
+	}
+.lemidslider {
+	margin-bottom: 0 !important;
+	position: relative;
+	}
+
+.slider h1.lemid {
+	font-size: 650%;
+	font-family: "Haymaker" !important;
+	}
+
+.le-wrap {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+	}
+
+.le-big {
+	/* z-index: 1; */
+	top: -62px;
+	left: -45%;
+	position: absolute;
+	}
+
+.jPanelMenu .le-big, .jPanelMenu .text-right .le-big {
+	width: 50%;
+	height: auto;
+	}
+
+.text-right .le-big {
+	left: -20%;
+	float: right;
+	}
+
+
+.jolly-roger {
+	position: relative;
+	left: -34px;
+	}
+
+.text-right .jolly-roger {
+	left: 48px;
+	}
+
+.jolly-roger.alignright {
+	position: relative;
+	left: 12px;
+	top: -36px;
+	}
+
+.jolly-roger + .midcredit {
+	display: inline-block;
+	position: absolute;
+	top: 276px;
+	left: 16px;
+	font-size: 1em;
+	font-weight: bold;
+	}
+
+.midgrad {
+	vertical-align: top;
+	opacity: .2;
+	width: 100%;
+	height: 50%;
+	}
+
+.saymini {
+	position: relative;
+	left: -6px;
+	}
+
+
+
+/********************************************* FOOTER COLORS  ****************/
+/***************************  dark colors   ****************/
+
+
+.footer h3.widget-title {
+	color: white;
+	}
+
+
+.footer .tx-div {	
+	background: white;
+	}
+
+.footer ul li a:hover {
+	background-color: #49B1EB;
+	color: #fff;
+	}
+	
+.footer ul li a {
+	color: white;
+	}
+	
+.footer .tennis {
+	background: url(/img/ledunk-tennis.png) no-repeat;
+	display: block;
+	width: 188px;
+	height: 60px;
+	background-position: 6px 6px;
+	}
+	
+.footer .tennis:hover {
+	text-indent: -10000px;
+	background: url(/img/ledunk-tennis.png) no-repeat;
+	background-position: 6px 6px;
+	}
+	
+/***************************  ORANGE 49B1EB  ****************/
+
+.footer-wrapper.footer-orange {
+	background-image: url('/img/footer-pattern-gray.png');
+	background-color: #49B1EB !important;	
+	}
+
+.footer-wrapper.footer-orange ul li a:hover, .footer-wrapper.footer-gray ul li a:hover  {
+	background-color: #fff;
+	color: #444 !important;
+	}
+
+.footer-wrapper.footer-orange .tennis, .footer-wrapper.footer-gray .tennis  {
+	background: url(/img/ledunk-tennis-white.png) no-repeat;
+	background-position: 6px 6px;
+	}
+.footer-wrapper.footer-orange .tennis:hover, .footer-wrapper.footer-gray .tennis:hover {
+	background: #eee url(/img/ledunk-tennis-blk.png) no-repeat;
+	background-position: 6px 6px;
+	}
+
+.footer-orange .footer .social-icons .icon, .footer-gray .footer .social-icons .icon { 
+	border-color: #fff !important;
+	color: #fff;
+	}
+.footer-orange .absolute-footer {
+	color: white !important;
+	}
+/***************************  BLUE  3382be ****************/
+
+.footer-wrapper.footer-blue {
+	background-image: url('/img/footer-pattern-trans.png');
+	background-color: #3382be !important;	
+	}
+.footer-blue ul li a:hover, .footer-blue .tennis:hover {
+	background-color: #3382be;
+	}
+
+/***************************  Gray  3382be ****************/
+
+.footer-wrapper.footer-gray {
+	background-image: url('/img/footer-pattern-gray.png');
+	background-size: 100% 60px !important; 
+	background-color: #A8B4BD !important;	
+	}
+
+.footer-wrapper.footer-gray .tennis  {
+	background: url(/img/ledunk-tennis-white.png) no-repeat;
+	background-position: 6px 6px;
+	}
+
+.footer-wrapper.footer-gray .tennis:hover {
+	background-color: #fff;
+	opacity: .9;
+	}
+
+/***************************  WHITE   ****************/
+
+.footer-wrapper.footer-white {
+	background: transparent !important;
+	}
+
+.footer-white .get-yours {
+	display: none;
+	}
+
+.footer-white .footer-1.light, .footer-white .widget-title, .footer-white .absolute-footer, .footer-white ul li a {
+	color: #444 !important;
+	}
+
+.footer-white .footer .social-icons .icon { 
+	border-color: #444 !important;
+	color: #444;
+	}
+
+.footer-white .footer .social-icons .icon:hover {
+	background: #eee !important;
+	text-decoration: none;
+	}
+
+.footer-white .footer-1.light a:hover {
+	background: #eee;
+	color: #000 !important;
+	text-decoration: underline;
+	}
+
+.footer-white .tennis {
+	background: url(/img/ledunk-tennis-blk.png) no-repeat;
+	background-position: 6px 6px;
+	}
+
+.footer-white .footer-1.light .tennis:hover {
+	color: red;
+	background: #eee url(/img/ledunk-tennis-blk.png) no-repeat;
+	background-position: 6px 6px;
+	}
+
+.footer-white .footer .tx-div {
+	background: #444;
+	}
+
+/******************** COMPACT FOOTER  ****************/
+
+.footer-wrapper.footer-compact {
+	/* border-top: 1px solid #ddd; */
+	background: white !important;
+	/* padding: 0; */
+	}
+
+.post-type-archive-product .category-page {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
+	}
+
+.footer-compact .logocont {
+	/* min-height: 60px; */
+	}
+
+.footer-compact .tx-div {
+	background: #666;
+	margin: 6px 0;
+	}
+
+.footer-compact ul li {
+	color: #888 !important;
+	font-weight: normal !important;
+	font-size: 13px;
+	}
+
+.footer-compact ul li a, .footer-compact .widget-title {
+	color: #666 !important;
+	font-weight: normal !important;
+	font-size: 13px !important;
+	line-height: .8em;
+	}
+
+.footer-compact.footer-wrapper .widget-title {
+	margin-top: 12px !important;
+	color: #bbb !important;
+	letter-spacing: 1px;
+	border-bottom: 0px solid #ddd;
+	padding-bottom: .5em;
+	font-weight: bold !important;
+	font-family: "Arimo" !important;
+		
+	}
+
+.footer-compact .footer-1.light a:hover {
+	background: #eee;
+	color: #444 !important;
+	text-decoration: underline;
+	}
+
+	
+.footer .tennis:hover {
+	text-indent: -10000px;
+	background: url(/img/ledunk-tennis.png) no-repeat;
+	background-position: 6px 6px;
+	}
+
+
+.footer-compact .blklogo {
+	display: block;
+	width: 132px;
+	height: 36px;
+	border: 6px solid transparent;
+	opacity: .9;
+	/* float: right; */
+	}
+
+.footer-compact .footer-1.light .blklogo:hover {
+	height: 46px;
+	border: 6px solid #eee;
+	}
+.footer-compact .absolute-footer {
+	color: #bbb;
+	
+	}
+	
+/********************************************* FOOTER ROW  ****************/
+
+.footer-wrapper {
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	background-color: #999 !important;
+	display: block;
+	position: relative;
+
+	/* opacity zero for jquery animation */
+	opacity: 0;
+	}
+
+
+.footer h3.widget-title {
+	font-weight: bold;
+	margin-top: 64px;
+	font-family: "Pontano Sans" !important;
+	font-size: 1.1em;
+	}
+
+
+.footer .tx-div {	
+	width: 100%;
+	opacity: 1;
+	height: 2px;
+	}
+
+.footer ul li a:hover {
+	text-decoration: underline;
+	}
+	
+.footer ul li a {
+	padding: 4px 6px;
+	margin: -4px -6px;
+	font-weight: bold;
+	}
+
+
+.footer {
+	border-top: 9px solid white;
+	background: transparent !important;
+	color: white !important;
+	}
+
+
+.footer ul li {
+	list-style-type: none;
+	margin: 4px 0;
+	line-height: 1.6em;
+	}
+
+.footer ul li.empty {
+	}
+
+.footer .get-yours {
+	position: absolute;
+	top: -50px;
+	right: -25%;
+	
+	/* display: none !important; */
+	}
+
+.jPanelMenu .get-yours {
+	
+	}
+.jPanelMenu .footer .logocont {
+	min-height: 80px;
+	}
+
+.footer .logocont {
+	min-height: 400px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;
+	}
+	
+.logocont .social-icons {
+	position: absolute;
+	bottom: 7px;
+	right: 0;
+	}
+
+.logocont .social-icons .icon.icon_twitter:hover {
+	border-color: white;
+	background-color: dodgerblue;
+	}
+
+.social-icons .icon.icon_email:hover {
+	border-color: white;
+	background-color: #3340A0;
+	}
+
+.footer .tennis {
+	float: left;
+	position: absolute;
+	bottom: 0;
+	
+	padding: 8px;
+	}
+
+
+.absolute-footer {
+	background: transparent !important;
+	}
+
+
+
+
+/* From Foundation CSS */
+/*
+.woocommerce-checkout .footer-1, .woocommerce-checkout .footer-2 {
+	display: none !important;
+	}
+
+*/
+
+.woocommerce-cart .footer-1, .woocommerce-cart .footer-2 {
+	display: none !important;
+	}
+
+.woocommerce-page .footer-wrapper {
+	
+	/*
+background-image: url('/img/footer-pattern-extratrans.png');
+	background-color: steelblue !important;
+*/
+}
+
+
+/********************************************* ABOUT PAGE  ****************/
+
+.about p, .about .bodytext, .about #content, .about #content a {
+	font-family: "Pontano Sans", sans-serif !important;
+	color: #222;
+	}
+
+.about #content { margin-bottom: -30px; }
+
+.about p.bigtext {
+	font-size: 220%;
+	line-height: 1.5em;
+	}
+.about p.midtext  {
+	margin-top: 2em;
+	font-size: 175%;
+	text-align: center;
+	}
+
+.about .bodytext {
+	font-size: 150%;
+	}
+
+.about .about-top .aligncenter {
+	width: 100%;
+	}
+
+.about .about-top {
+	position: relative;
+	font-size: 100%;
+	width: 100%;
+	white-space: nowrap;
+	}
+
+
+.about .about-top .columns {
+	display: inline-block;
+    vertical-align: bottom;
+    white-space: normal;
+	float: none;
+	
+	}
+
+.about .about-top .large-3 {
+	padding: 0 3em;
+	}
+
+.jPanelMenu-panel .about-top {
+	width: auto;
+	}
+
+.jPanelMenu-panel .about-top .columns {
+	float: left;
+	padding: 1em;
+	}
+
+.jPanelMenu-panel .about-top .share-gif {
+	display: none;
+	}
+
+.about .share-gif a {
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 6px;
+	margin: -6px;
+	letter-spacing: .5px;
+	}
+
+.about .share-gif a:hover {
+	background: #eee;
+	}
+
+.about .about-top .columns:last-child {
+	text-align: right;
+	top: -10px;
+	font-size: 125%;
+	}
+
+.about p img:before {
+		content: "\e002";
+	}
+
+
+.about p a{
+	font-size: 16px;
+	border: 3px solid transparent;
+	display: inline-block;
+	padding: -8px;
+/*
+	margin-right: 5px;
+	margin-bottom: 5px;
+*/
+	color: #ccc;
+	-webkit-border-radius: 99px;
+	border-radius: 99px;
+	-webkit-transition: "background-color" 200ms ease-out;
+	-moz-transition: "background-color" 200ms ease-out;
+	transition: "background-color" 200ms ease-out;
+	
+	}
+
+.about p a:hover, .order-received a:hover {
+	border-color: #bbb;
+	background: transparent !important;
+	}
+
+.about .donutcenter {
+	text-align: center;
+	position: relative;
+	height: 220px;
+	}
+
+.about .nf-modal-content, .about .nf-modal, .about a.close-modal {
+	border-radius: 0 !important;
+	}
+
+.about a.close-modal {
+	top: 25px !important;
+	right: 25px !important;
+	}
+
+.about .ninja-forms-form {
+	padding: 2em;
+	font-family: "Arimo" !important;
+	}
+
+
+.about div.ninja-forms-field-description p {
+	font-size: .85em;
+	font-family: "Arimo" !important;
+	}
+
+
+.about .ninja-forms-required-items {
+	margin: 1.5em 0;
+	text-align: right;
+	font-size: .85em;
+	position: absolute;
+	bottom: 36px;
+}
+
+.about .logo-field {
+	position: relative;
+	top: -20px;
+	
+	}
+
+.about .logo-field img {
+	width: 120px;
+	height: auto;
+	}
+
+.about .ninja-forms-success-msg p {
+	font-family: Haymaker !important;
+	font-size: 3em;
+	color: #222;
+	text-align: center;
+	padding: 2em 2em 1em 2em;
+	}
+
+
+/********************************************* SHOP PAGE  ****************/
+
+
+.post-type-archive-product .product-image img {
+	width: 100% !important;
+	}
+
+.post-type-archive-product h5.category {
+	margin-top: .5em;
+	}
+
+	
+/********************************************* CHECKOUT FIX  ****************/
+
+.payment_method_Striper .input-text {
+	width: 100% !important;
+}
+
+.payment-errors {
+	color: red;
+	display: inline-block;
+	margin: 1em 0;
+	}
+
+
+label[for=payment_method_stripe] img {
+	display: block;
+	margin: 1em 0;
+	}
+
+.payment_box.payment_method_stripe fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0px transparent;
+	}
+
+.payment_box.payment_method_stripe select {
+	height: 1.5em;
+	}
+.payment_box.payment_method_stripe select option {
+	font-size: 5em;
+	}
+
+input#stripe_card_csc {
+	width: 100% !important;
+	}
+
+.payment_methods .form-row-last{
+
+	}
+.payment_methods li {
+	padding: 10px 0 5px !important;
+	}
+
+.ladda-button[data-style=zoom-out] .ladda-spinner {
+
+	}
+
+.ladda-label {
+	display: none;
+	}
+
+.ladda-button[data-style=zoom-out] .ladda-spinner div {
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	}
+
+.checkout .checkout_table_item td {
+	width: 50%;
+	}
+
+.checkout .shipping td {
+	/* won't accept width since declared as table-cell width: 75%;	 */
+	}
+
+.checkout #shipping_method li {
+	width: 100%;
+	}
+
+.checkout #shipping_method li input {
+	margin: 0 7px 0 0 !important;
+	}
+
+/********************************************* SIGNUP PAGE  ****************/
+
+
+img.fatty {
+	border: 1px solid #999;
+	width: 75%;
+	}
+
+
+
+
+/********************************************* MY ACCOUNT PAGE  ****************/
+
+.my-account .woocommerce {
+	padding-bottom: 2em;
+	}
+
+#dunk-avatar {
+	position: initial !important;
+	}
+
+.avatar {
+	border-radius: 0;
+	}
+
+
+.my-account h2 {
+	margin-top: 3em !important;
+	clear: both;
+	color: #777;
+	}
+
+.my-account .col2-set.addresses {
+ 	display: flex;
+ 	line-height: 1.25em
+	}
+
+.my-account h3 {
+	color: #555;
+	font-family: 'Pontano-Sans', sans-serif !important;
+	text-transform: uppercase;
+	font-size: 100%;
+	}
+
+.my-account .shop_table tbody {
+	padding-bottom: 8em;	
+	}
+
+
+.my-account .shop_table input {
+	position: relative;
+	top: 1.2em;
+	}
+	
+.my-account .account-user .user-name {
+		margin: .5em 0;
+}
+
+/********************************************* ORDER RECEIVED  ****************/
+
+
+
+.donut-thanks a {
+	border: 3px solid transparent;
+	display: inline-block;
+	-webkit-border-radius: 199px;
+	border-radius: 199px;
+	}
+
+
+
+
+/********************************************* JOBS PAGE  ****************/
+
+body.jobs .entry-content {
+	padding-right: 18.5%;
+	}
+
+body.jobs p {
+	font-size: 1.5em;
+	}
+
+.accordion .accordion-inner {
+	
+	line-height: 1.5em;
+	font-size: 1.5em;
+	
+	}
+
+body.jobs .accordion-inner a {
+	color: #333 !important;
+	padding: 2px 4px;
+	margin: -2px -4px;
+	}
+
+body.jobs .accordion-inner a:hover,  body.privacy p a:hover {
+	color: #000 !important;
+	text-decoration: underline;
+	background: #eee !important;
+	}
+	
+body.privacy p a {
+	color: #777 !important;
+	padding: 2px 4px;
+	margin: -2px -4px;	
+	}
+	
+
+body.privacy .large-3.right {
+	background-image: url(/img/angry-dudes-bottom.jpg);
+	background-position: -50px bottom;
+	min-height: 620px;
+	background-repeat: no-repeat;
+	
+	padding-top: 68px;
+	
+	font-size: .85em;
+	}
+
+/********************************************* BLOG  ****************/
+
+#secondary.widget-area a {
+	color: #888 !important;
+	}
+
+#secondary.widget-area a:hover {
+	color: black !important;
+	}
+
+.star-row {
+	min-width: 280px;
+	height: 36px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 0
+	}
+
+.star-title {
+	float: left;
+	padding: 2px 12px;
+	margin-right: 6px;
+	font-size: 18px;
+	line-height: 32px;
+	text-transform: uppercase;
+	}
+
+.star-rating {
+	font-size: 18px !important;
+	line-height: 32px !important;
+	height: 100% !important;
+	float: right;
+	background: #eee;
+	display: table-cell;
+	width: 110px;
+	text-indent: 10px;
+	}
+
+
+.lastrating {
+	margin-bottom: 1.6em;
+	}
+
+
+
+/********************************************* FOOTER ROW  ****************/
+
+#logo {
+	/* display: none !important; */
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,234 @@
+@import url("../fonts/haymaker.css");
+@import url("../fonts/nitti.css");
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"Haymaker", monospace;
+	font-size:14px;
+/* 	background:#f4f4f4; */
+	background: #0d0d0d;
+	color: #bdbdbd;
+	overflow-y:scroll;
+}
+h1{
+	font-size: 3.5em;
+	font-weight: normal;
+}
+h2{
+	font-size: 3em;
+}
+h3 {
+	font-size: 2.5em;
+	margin: 1em 0;
+}
+.emailform.nocurse h3, .welcome h1, .welcome p {
+	background: #0d0d0d;
+	padding: .25em;
+	margin: 0 auto;
+	display: inline-block;
+}
+h4 {
+	font-size: 1.5em;
+	margin: 1em 0;
+}
+.nicetry h4 {
+	font-family: "nittilight", monospace;
+	}
+a{
+	color: #bdbdbd;
+}
+a:hover{
+	color:#222;
+}
+p{
+	padding:5px 0px;
+	font-family: "nittilight"
+}
+#wrapper{
+	width:100%;
+	min-height:100vh;
+}
+#main-content {
+	min-height: 100vh;
+}
+
+.content {
+	/* width: 960px; */
+	padding-top: 20%;
+	text-align: center;
+}
+
+.clear{
+	clear:both;
+}
+.hidden {
+	visibility: hidden;
+}
+/* Form Style */
+.form_wrapper{
+	margin:0 auto;
+	font-size:18px;
+
+}
+
+
+.form_wrapper input[type="text"],
+.form_wrapper input[type="password"]{
+	font-family: "nittilight", monospace;
+	
+	margin: 24px auto;
+	padding: 1em;
+	display:block;
+	font-size:2em;
+	width:60%;
+	max-width: 600px;
+	
+	color: #ccc;
+
+	/* border: 1px solid transparent; */
+/* 	border-bottom: 2px solid #ccc; */
+
+	border: 2px solid #999;
+	background-color: transparent;
+
+}
+.form_wrapper input[type="text"]:focus,
+.form_wrapper input[type="password"]:focus{
+}
+
+
+
+
+.form_wrapper span.error{
+	visibility:hidden;
+	color:red;
+	font-size:1em;
+	display: inline-block;
+	margin:.25em .5em;
+	padding: .35em .5em;
+	background: #0d0d0d;
+	
+	font-family: "nittilight", monospace;
+}
+
+
+/* //////////////////////////////////////////////////// dunk STEE // */
+
+#bg { z-index: -1; }
+
+
+#arttypeform label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+#arttypeform label:hover {
+    background-color: #efefef;
+}
+.input_hidden {
+	display: none;
+}
+
+h1 a {
+/* 	padding: 0 20px; */
+	display: inline-block;
+/* 	padding-top: .1em; */
+	padding: 12px;
+}
+
+h1 a:hover {
+	background: #eee;
+}
+
+p {
+	margin: 1em 0;	
+}
+.welcome p {
+	margin: 2em 0;
+	padding: .35em .5em;
+	}
+
+.welcome div {
+	top: 0;
+	}
+.welcome p.credit {
+	font-size: .8em;
+	position: relative;
+	display: block;
+	left: -50%;
+	color: #333;
+	background: transparent;
+	}
+
+.welcome hr {
+	border: 0;
+	}
+.fanga {
+		display: none;
+		position: absolute;
+		width: 160px;
+		height: auto;
+}
+
+.fanga.bunny {
+	border-radius: 90px;
+	border: 4px solid 333 !important;
+	-moz-box-shadow: 0px 0px 28px #111;
+	-webkit-box-shadow: 0px 0px 28px #111;
+	box-shadow: 0px 0px 28px #111;
+}
+
+.namlogo {
+	position: absolute;
+	bottom: 4%;
+	width: 168px;
+	height: auto;
+	left:50%;
+    margin-left:-84px;
+	}
+
+#arttypeform {
+	width: 100%;
+	}
+
+#arttype {
+	margin: 0 auto;
+	display: table;
+	padding: 12px;
+	
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	}
+
+#arttype .selection {
+	padding: 4px;
+	float: left;
+	display: table-cell;
+	
+	}	
+
+.selection img {
+	padding-bottom: 4px;
+	}
+
+#dots {
+	position: absolute;
+	}
+
+
+.triplecurse {
+	margin-top: -15%;
+}
+
+.emailform input {
+	background: #0d0d0d !important;
+	}
+
+
+
+
+/* //////////////////////////////////////////////////// SILENCIO // */
